@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --env-file --allow-all main.ts"
+  },
+  "imports": {
+    "@anode/draft-schema": "jsr:@anode/draft-schema@^0.1.0",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
